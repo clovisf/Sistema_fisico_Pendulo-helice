@@ -147,7 +147,7 @@ if (percentualfeedback >= percentualreferencia){
 
   
   // The DELAY time is adjusted in the constant below >> 
-  if (timet - previousTime < 9999){ // 1 million microsencods= 1 second delay
+  if (timet - previousTime < 4999){ // 1 million microsencods= 1 second delay
     /* I have actually used 0.999990 seconds, in a trial to compensate the time that
        this IF function takes to be executed. this is really a point that
        need improvement in my code */   
